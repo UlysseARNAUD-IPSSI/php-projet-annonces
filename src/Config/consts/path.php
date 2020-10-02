@@ -1,0 +1,25 @@
+<?php
+
+declare(strict_types=1);
+
+define('ROOT_DIR', 'C:/Users/uarnaud/Workspace/IPSSI/php-projet-annonces/');
+
+define('RESOURCES_NAME', 'resources');
+define('SRC_NAME', 'src');
+define('VIEWS_NAME', 'Views');
+define('COMMANDS_NAME', 'Commands');
+define('CONFIG_NAME', 'Config');
+define('CONTROLLERS_NAME', 'Controllers');
+define('DATABASE_NAME', 'Database');
+define('SHARED_NAME', 'shared');
+define('MODELS_NAME', 'Models');
+
+define('RESOURCES_DIR', ROOT_DIR . RESOURCES_NAME . DIRECTORY_SEPARATOR);
+define('SRC_DIR', ROOT_DIR . SRC_NAME . DIRECTORY_SEPARATOR);
+define('VIEWS_DIR', SRC_DIR . VIEWS_NAME . DIRECTORY_SEPARATOR);
+define('COMMANDS_DIR', SRC_DIR . COMMANDS_NAME . DIRECTORY_SEPARATOR);
+define('CONFIG_DIR', SRC_DIR . CONFIG_NAME . DIRECTORY_SEPARATOR);
+define('CONTROLLERS_DIR', SRC_DIR . CONTROLLERS_NAME . DIRECTORY_SEPARATOR);
+define('DATABASE_DIR', SRC_DIR . DATABASE_NAME . DIRECTORY_SEPARATOR);
+define('SHARED_DIR', SRC_DIR . SHARED_NAME . DIRECTORY_SEPARATOR);
+define('MODELS_DIR', SRC_DIR . MODELS_NAME . DIRECTORY_SEPARATOR);

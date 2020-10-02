@@ -1,0 +1,13 @@
+
+html, body {
+    background: white;
+}
+
+.page {
+    /*background: red;*/
+    padding: 1.75rem .5rem;
+}
+
+.invalid-feedback {
+    display: block!important;
+}
